@@ -66,6 +66,11 @@ const createParticles = () => {
     }
 };
 createParticles();
+// ===== Form redirect URL (GitHub Pages compatible) =====
+const formNext = document.getElementById('form-next');
+if (formNext) {
+    formNext.value = `${window.location.origin}${window.location.pathname.replace(/\/index\.html$/, '') || '/'}#contato`;
+}
 // ===== Parallax effect on hero =====
 const heroContent = document.querySelector('.hero-content');
 window.addEventListener('scroll', () => {
