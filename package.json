@@ -1,0 +1,13 @@
+{
+  "name": "queremos-injustissa",
+  "version": "1.0.0",
+  "description": "Landing page da guild Queremos Injustiça - World of Warcraft",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "npx --yes serve . -p 3000"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
